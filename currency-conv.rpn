@@ -1,0 +1,19 @@
+#NRPN File.
+
+!CELL[1,2]=''Rates Converter                                                       
+!CELL[3,3]='US
+!CELL[3,4]='EUR
+!CELL[3,6]='EUR
+!CELL[3,7]='US
+!CELL[4,3]=1.23
+!CELL[4,4]=$[4,3] / 1.23
+!CELL[4,6]=114
+!CELL[4,7]=$[4,6] * 1.23 
+!CELL[5,3]=350
+!CELL[5,4]=$[5,3] / 1.23 
+!CELL[5,6]=150
+!CELL[5,7]=$[5,6] * 1.23 
+!CELL[6,3]=199
+!CELL[6,4]=$[6,3] / 1.23 
+!CELL[11,1]=''Stand
+!CELL[12,1]=20180421
